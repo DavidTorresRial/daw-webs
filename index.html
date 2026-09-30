@@ -1,47 +1,53 @@
 <!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Adaptado por David Torres Rial
+-->
 <html lang="es">
 	<head>
-		<title>David Torres Rial</title>
+		<title>David Torres Rial · CV</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<style>
-			body {
-				margin: 0;
-				min-height: 100vh;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				background: #242629;
-				color: #fff;
-				font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-				text-align: center;
-				padding: 1rem;
-				box-sizing: border-box;
-			}
-			h1 { font-size: 2.2rem; margin: 0 0 0.3rem 0; }
-			p { color: #a0a0a1; margin: 0 0 2rem 0; }
-			.enlaces { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
-			a {
-				display: block;
-				min-width: 12rem;
-				padding: 1rem 1.5rem;
-				border-radius: 6px;
-				background: #34a58e;
-				color: #fff;
-				text-decoration: none;
-				font-weight: 600;
-			}
-			a:hover { background: #47c5ab; }
-		</style>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/cv.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
-		<main>
-			<h1>David Torres Rial</h1>
-			<p>Full Stack Developer · Mobile, Web &amp; Backend</p>
-			<div class="enlaces">
-				<a href="cv/">Currículum</a>
-				<a href="porfolio/">Porfolio</a>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>David Torres Rial</h1>
+						<p>Full Stack Developer &nbsp;&bull;&nbsp; Mobile, Web &amp; Backend &nbsp;&bull;&nbsp; Madrid</p>
+						<nav>
+							<ul>
+								<li><a href="https://github.com/DavidTorresRial" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://linkedin.com/in/david-torres-rial" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:david.torres.rial@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+						<div class="secciones">
+							<a href="experiencia.html">Experiencia</a>
+							<a href="formacion.html">Formación</a>
+							<a href="habilidades.html">Habilidades</a>
+							<a href="porfolio/">Porfolio</a>
+						</div>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; David Torres Rial. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
 			</div>
-		</main>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+		</script>
 	</body>
 </html>
