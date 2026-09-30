@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>LEBBO · Porfolio de David Torres Rial</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/proyecto.css" />
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html"><strong>David Torres Rial</strong> · Porfolio</a></h1>
+					<nav>
+						<ul>
+							<li><a href="index.html" class="icon solid fa-th">Proyectos</a></li>
+							<li><a href="../cv/" class="icon solid fa-file-alt">CV</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Proyecto -->
+				<section class="proyecto">
+					<img class="portada" src="images/lebbo.svg" alt="LEBBO" />
+					<h1>LEBBO</h1>
+					<p class="subtitulo">Fundador y Desarrollador Full Stack · 07/2025 – Presente · <a href="https://lebbo.es">lebbo.es</a></p>
+
+					<p>SaaS B2B2C multi-tenant en producción para empresas de turismo activo en Galicia, diseñado, desarrollado y comercializado en solitario.</p>
+					<ul>
+						<li>Motor de reservas en tiempo real sin overbooking, con app web y móvil.</li>
+						<li>Panel SaaS de operaciones: check-in/out, inventario y aforo.</li>
+						<li>Pagos con Stripe (tarjeta y SEPA) con webhooks y emails transaccionales con Resend.</li>
+						<li>Tramitación automática de permisos de la Xunta de Galicia mediante web scraping.</li>
+						<li>Programa de afiliados con cálculo automático de comisiones.</li>
+						<li>Seguridad multi-tenant con Row Level Security, roles, caché y rate limiting con Redis.</li>
+					</ul>
+					<ul class="etiquetas"><li>Next.js</li><li>React</li><li>TypeScript</li><li>Supabase</li><li>PostgreSQL</li><li>Redis</li><li>Stripe</li><li>Resend</li><li>Vercel</li></ul>
+					<div class="navegacion">
+						<a href="index.html">&larr; Todos los proyectos</a>
+						<a href="erp.html">ERP + CRM acuícola &rarr;</a>
+					</div>
+				</section>
+
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+		</script>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+/* Estilos propios añadidos a la plantilla Multiverse para las páginas de proyecto */
+
+.proyecto {
+	max-width: 52rem;
+	margin: 0 auto;
+	padding: 7rem 1.5rem 4rem 1.5rem;
+}
+
+.proyecto img.portada {
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 2rem;
+}
+
+.proyecto h1 {
+	color: #fff;
+	font-size: 2rem;
+	margin-bottom: 0.25rem;
+}
+
+.proyecto .subtitulo {
+	color: #34a58e;
+	margin-bottom: 1.5rem;
+}
+
+.proyecto ul {
+	margin-bottom: 2rem;
+}
+
+.proyecto .etiquetas {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	list-style: none;
+	padding: 0;
+}
+
+.proyecto .etiquetas li {
+	background: #34363b;
+	border-radius: 4px;
+	padding: 0.2rem 0.7rem;
+	font-size: 0.85rem;
+}
+
+.proyecto .navegacion {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 1rem;
+	border-top: solid 1px #36383c;
+	padding-top: 1.5rem;
+}
+
+/* Enlace "Ver proyecto" dentro de la ventana emergente de la galería */
+.poptrox-popup .caption p a {
+	color: #34a58e;
+	white-space: nowrap;
+}
